@@ -1,0 +1,7 @@
+<view class='container'>
+  <image class='user-avatar' src='/images/avatar/3.png'></image>
+  <text class='user-name'>MovieAndReader</text>
+  <view class='moto-container' bindtap='onTap'>
+    <text class='moto'>Start</text>
+  </view>
+</view>
