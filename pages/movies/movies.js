@@ -83,6 +83,15 @@ Page({
     })
   },
 
+  // 电影详情
+  onMovieTap: function (event) {
+    var movieId = event.currentTarget.dataset.movieid
+
+    wx.navigateTo({
+      url: 'movie-detail/movie-detail?id=' + movieId
+    })
+  },
+
   // 关闭搜索页面
   onCancelImgTap: function(event) {
     this.setData({

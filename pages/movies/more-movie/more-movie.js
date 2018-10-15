@@ -106,6 +106,7 @@ Page({
 
     this.data.movies = {}
     this.data.isEmpty = true
+    this.data.totalCount = 0
     util.http(nextUrl, this.processDoubanData)
     wx.showNavigationBarLoading()
   },
